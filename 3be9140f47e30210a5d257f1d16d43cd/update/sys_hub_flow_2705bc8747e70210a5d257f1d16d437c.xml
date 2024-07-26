@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2705bc8747e70210a5d257f1d16d437c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Wish List commit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wish List" source="x_249644_wish_list">3be9140f47e30210a5d257f1d16d43cd</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Wish List">3be9140f47e30210a5d257f1d16d43cd</sys_scope>
         <sys_update_name>sys_hub_flow_2705bc8747e70210a5d257f1d16d437c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 15:41:58</sys_updated_on>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2705bc8747e70210a5d257f1d16d437c"/>
@@ -60,10 +60,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 15:41:58</sys_created_on>
         <sys_id>95457c4747eb0210a5d257f1d16d4354</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 15:41:58</sys_updated_on>
+        <sys_updated_on>2024-07-26 15:49:08</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -283,7 +283,61 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d945744747eb0210a5d257f1d16d43b3"/>
     <sys_hub_flow_output action="delete_multiple" query="model=2705bc8747e70210a5d257f1d16d437c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2705bc8747e70210a5d257f1d16d437c"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=2705bc8747e70210a5d257f1d16d437c^sys_idNOT INd1457c4747eb0210a5d257f1d16d4368"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2705bc8747e70210a5d257f1d16d437c^sys_idNOT INaee6f00b47eb0210a5d257f1d16d4316,d1457c4747eb0210a5d257f1d16d4368"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Wish List commit">2705bc8747e70210a5d257f1d16d437c</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>6dc79c80-7796-4c29-abbc-b2ada60d8075</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>aee6f00b47eb0210a5d257f1d16d4316</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Wish List">3be9140f47e30210a5d257f1d16d43cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <ui_id>7e48c98a-bd2c-4103-8200-ca5f057370b7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aee6f00b47eb0210a5d257f1d16d4316"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aee6f00b47eb0210a5d257f1d16d4316</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>6ae6f00b47eb0210a5d257f1d16d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <value>Flow failed</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aee6f00b47eb0210a5d257f1d16d4316</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>a6e6f00b47eb0210a5d257f1d16d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <value>error</value>
+        <variable display_value="Level">5bc1bcc6531003003bf1d9109ec587d7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=aee6f00b47eb0210a5d257f1d16d4316"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aee6f00b47eb0210a5d257f1d16d4316"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aee6f00b47eb0210a5d257f1d16d4316"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
@@ -295,15 +349,15 @@
         <flow display_value="Wish List commit">2705bc8747e70210a5d257f1d16d437c</flow>
         <generation_source/>
         <order>1</order>
-        <parent_ui_id/>
+        <parent_ui_id>a88dab67-95dc-43c6-bfd8-64261bb2c922</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 15:41:58</sys_created_on>
         <sys_id>d1457c4747eb0210a5d257f1d16d4368</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Wish List">3be9140f47e30210a5d257f1d16d43cd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 15:41:58</sys_updated_on>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
         <ui_id>7c7f3453-924e-4eb1-b777-c9cfbf0e46fe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d1457c4747eb0210a5d257f1d16d4368"/>
@@ -315,17 +369,128 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 15:41:58</sys_created_on>
         <sys_id>a9457c4747eb0210a5d257f1d16d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:44:14</sys_updated_on>
+        <value>Flow finished!</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d1457c4747eb0210a5d257f1d16d4368</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:47:44</sys_created_on>
+        <sys_id>ca96f8c747eb0210a5d257f1d16d43ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 15:41:58</sys_updated_on>
-        <value>Flow finished.</value>
-        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+        <sys_updated_on>2024-07-26 15:47:44</sys_updated_on>
+        <value>warn</value>
+        <variable display_value="Level">5bc1bcc6531003003bf1d9109ec587d7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=d1457c4747eb0210a5d257f1d16d4368"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d1457c4747eb0210a5d257f1d16d4368"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d1457c4747eb0210a5d257f1d16d4368"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2705bc8747e70210a5d257f1d16d437c"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=2705bc8747e70210a5d257f1d16d437c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2705bc8747e70210a5d257f1d16d437c^sys_idNOT IN6ee6f00b47eb0210a5d257f1d16d430e,aae6b00b47eb0210a5d257f1d16d43fd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a6e6f00b47eb0210a5d257f1d16d430e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Wish List commit">2705bc8747e70210a5d257f1d16d437c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>6ee6f00b47eb0210a5d257f1d16d430e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Wish List">3be9140f47e30210a5d257f1d16d43cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <ui_id>6dc79c80-7796-4c29-abbc-b2ada60d8075</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6ee6f00b47eb0210a5d257f1d16d430e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6ee6f00b47eb0210a5d257f1d16d430e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>22e6f00b47eb0210a5d257f1d16d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <value>1</value>
+        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6ee6f00b47eb0210a5d257f1d16d430e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>6ee6f00b47eb0210a5d257f1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=6ee6f00b47eb0210a5d257f1d16d430e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6ee6f00b47eb0210a5d257f1d16d430e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6ee6f00b47eb0210a5d257f1d16d430e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aee6b00b47eb0210a5d257f1d16d43fc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Wish List commit">2705bc8747e70210a5d257f1d16d437c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 15:49:09</sys_created_on>
+        <sys_id>aae6b00b47eb0210a5d257f1d16d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Wish List">3be9140f47e30210a5d257f1d16d43cd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 15:49:09</sys_updated_on>
+        <ui_id>a88dab67-95dc-43c6-bfd8-64261bb2c922</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aae6b00b47eb0210a5d257f1d16d43fd"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=aae6b00b47eb0210a5d257f1d16d43fd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aae6b00b47eb0210a5d257f1d16d43fd"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2705bc8747e70210a5d257f1d16d437c"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=2705bc8747e70210a5d257f1d16d437c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2705bc8747e70210a5d257f1d16d437c^sys_idNOT IN15457c4747eb0210a5d257f1d16d4351,9545744747eb0210a5d257f1d16d43b9"/>
